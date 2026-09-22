@@ -23,7 +23,7 @@ const params = new URLSearchParams({ pageSize: "100" });
 if (AIRTABLE_VIEW_NAME) {
   params.set("view", AIRTABLE_VIEW_NAME);
 } else {
-  params.set("sort[0][field]", "Display Name");
+  params.set("sort[0][field]", "Formatted Name");
   params.set("sort[0][direction]", "asc");
 }
 
