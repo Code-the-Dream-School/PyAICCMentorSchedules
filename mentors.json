@@ -1,5 +1,20 @@
 {
-  "mentors": [],
-  "groupSessionLink": "",
-  "generatedAt": "2026-09-22T23:10:26.166Z"
+  "mentors": [
+    {
+      "name": "Bryan Johnson",
+      "slug": {
+        "error": "#ERROR!"
+      }
+    },
+    {
+      "name": "Mohammad Arjamand Ali",
+      "slug": {
+        "error": "#ERROR!"
+      }
+    }
+  ],
+  "groupSessionLink": [
+    "https://codethedream.slack.com/docs/T07EHJ738/F0C3G5PFK5Z?focus_section_id=temp:C:YZB526ffa3197d24f1aa31caf2b2"
+  ],
+  "generatedAt": "2026-09-23T01:40:31.379Z"
 }
