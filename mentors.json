@@ -7,6 +7,10 @@
       }
     },
     {
+      "name": "Lukas Rupprecht",
+      "slug": "lukasrupprecht305"
+    },
+    {
       "name": "Mohammad Arjamand Ali",
       "slug": {
         "error": "#ERROR!"
@@ -16,5 +20,5 @@
   "groupSessionLink": [
     "https://codethedream.slack.com/docs/T07EHJ738/F0C3G5PFK5Z?focus_section_id=temp:C:YZB526ffa3197d24f1aa31caf2b2"
   ],
-  "generatedAt": "2026-09-24T17:54:36.210Z"
+  "generatedAt": "2026-09-24T21:42:10.325Z"
 }
