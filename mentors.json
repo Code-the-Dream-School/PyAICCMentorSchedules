@@ -2,19 +2,15 @@
   "mentors": [
     {
       "name": "Bryan J",
-      "slug": {
-        "error": "#ERROR!"
-      }
+      "schedulingUrl": "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3fNSDk6rQFLKxXc3sNbI9VQRSNibLlQl2RptO0KbnSE8n3TUdu2YKTpx6O2hxWkay_wHD8owM5"
     },
     {
       "name": "Lukas R",
-      "slug": "lukasrupprecht305"
+      "schedulingUrl": "https://calendly.com/lukasrupprecht305/30min"
     },
     {
       "name": "Mohammad A",
-      "slug": {
-        "error": "#ERROR!"
-      }
+      "schedulingUrl": "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1sOtPDd65o182pyvZm7yX3AriHz3NROe9sHXwkRMd9vg544e_DFpq9ofXTV1Eq8P-gRtiD_TYl"
     }
   ],
   "groupSessionLink": [
