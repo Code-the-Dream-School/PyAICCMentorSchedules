@@ -18,7 +18,7 @@ if (!AIRTABLE_TOKEN || !AIRTABLE_BASE_ID) {
 // If a view is set, that view's own sort order (configured in Airtable's
 // UI) is used, so no sort param is sent here at all — the view is the
 // single source of truth for ordering. If no view is set, fall back to
-// sorting by Display Name.
+// sorting by Formatted Name.
 const params = new URLSearchParams({ pageSize: "100" });
 if (AIRTABLE_VIEW_NAME) {
   params.set("view", AIRTABLE_VIEW_NAME);
@@ -31,7 +31,7 @@ if (AIRTABLE_VIEW_NAME) {
 // pulling every column on every record. Airtable requires each one
 // added as a separate fields[] entry (not a single comma-separated
 // value), hence the loop.
-["Display Name", "calendly slug", "Group Session Calendar Link"].forEach((f) =>
+["Formatted Name", "calendly slug", "Group Session Calendar Link"].forEach((f) =>
   params.append("fields[]", f)
 );
 
@@ -56,7 +56,7 @@ async function main() {
   // so every record returned here is treated as usable.
   const mentors = (data.records || [])
     .map((r) => ({
-      name: r.fields["Display Name"] || "",
+      name: r.fields["Formatted Name"] || "",
       slug: r.fields["calendly slug"] || "",
     }))
     .filter((m) => m.name && m.slug);
