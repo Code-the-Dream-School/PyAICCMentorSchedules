@@ -1,5 +1,24 @@
 {
-  "mentors": [],
-  "groupSessionLink": "",
-  "generatedAt": "2026-10-01T15:48:01.366Z"
+  "mentors": [
+    {
+      "name": "Bryan J",
+      "slug": {
+        "error": "#ERROR!"
+      }
+    },
+    {
+      "name": "Lukas R",
+      "slug": "lukasrupprecht305"
+    },
+    {
+      "name": "Mohammad A",
+      "slug": {
+        "error": "#ERROR!"
+      }
+    }
+  ],
+  "groupSessionLink": [
+    "https://codethedream.slack.com/docs/T07EHJ738/F0C3G5PFK5Z?focus_section_id=temp:C:YZB526ffa3197d24f1aa31caf2b2"
+  ],
+  "generatedAt": "2026-10-01T15:50:06.766Z"
 }
